@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/jim-harbaugh-effect-2023-2024/index.html",
+    "href": "posts/jim-harbaugh-effect-2023-2024/index.html",
+    "title": "Is the Jim Harbaugh Effect Real? LA Chargers 2023-2024 season",
+    "section": "",
+    "text": "The LA Chargers had a horrible 2023 season. No playoffs, a 5-11 record and then a fired coach.\n\n\nCode\nlibrary(tidyverse)\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.2\n✔ ggplot2   4.0.0     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "Is the Jim Harbaugh Effect Real? LA Chargers 2023-2024 season\n\n\n\nnfl\n\njimharbaugh\n\nlosangeles\n\nchargers\n\n\n\n\n\n\n\n\n\nNov 17, 2025\n\n\nLexi Shellhammer\n\n\n\n\n\nNo matching items"
+  }
+]
