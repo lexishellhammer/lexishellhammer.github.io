@@ -14,7 +14,7 @@
 <item>
   <title>Are the San Jose Sharks really that bad?</title>
   <dc:creator>Lexi Shellhammer</dc:creator>
-  <link>https://your-website-url.example.com/posts/volleyball-positions-underrated/</link>
+  <link>https://your-website-url.example.com/posts/are-the-2024-san-jose-sharks-really-that-bad/</link>
   <description><![CDATA[ 
 
 
@@ -206,7 +206,7 @@ font-style: inherit;">"plot"</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/volleyball-positions-underrated/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/are-the-2024-san-jose-sharks-really-that-bad/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -218,28 +218,7 @@ font-style: inherit;">"plot"</span></span>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">nhl <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> nhl <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb2-2">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ifelse</span>(tm <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">==</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"San Jose Sharks"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"New York Rangers"</span>, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Dallas Stars"</span>))</span>
-<span id="cb2-3"></span>
-<span id="cb2-4"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(nhl, <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -252,7 +231,7 @@ background-color: null;
 font-style: inherit;">color =</span> tm)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb2-5">  <span class="fu" style="color: #4758AB;
+<span id="cb2-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_point</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -265,10 +244,10 @@ background-color: null;
 font-style: inherit;">0.8</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb2-6">  <span class="fu" style="color: #4758AB;
+<span id="cb2-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_text_repel</span>(</span>
-<span id="cb2-7">    <span class="at" style="color: #657422;
+<span id="cb2-4">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -283,85 +262,124 @@ background-color: null;
 font-style: inherit;">"New York Rangers"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Dallas Stars"</span>)),</span>
-<span id="cb2-8">    <span class="fu" style="color: #4758AB;
+<span id="cb2-5">    <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">label =</span> tm),</span>
-<span id="cb2-9">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb2-6">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">nudge_x =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>,</span>
+<span id="cb2-7">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">direction =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"x"</span>,</span>
+<span id="cb2-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">hjust =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,</span>
+<span id="cb2-9">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>,</span>
+<span id="cb2-10">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">segment.color =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NA</span>,</span>
+<span id="cb2-11">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">show.legend =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>  </span>
+<span id="cb2-12">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb2-10">  <span class="fu" style="color: #4758AB;
+<span id="cb2-13">   <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">scale_color_manual</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+font-style: inherit;">c</span>(</span>
+<span id="cb2-14">    <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"San Jose Sharks"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#006D75"</span>, <span class="st" style="color: #20794D;
+font-style: inherit;">"#006D75"</span>,</span>
+<span id="cb2-15">    <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"New York Rangers"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#0038A8"</span>, <span class="st" style="color: #20794D;
+font-style: inherit;">"#0038A8"</span>,</span>
+<span id="cb2-16">    <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Dallas Stars"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#00843D"</span>)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"#00843D"</span></span>
+<span id="cb2-17">  )) <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb2-11">  <span class="fu" style="color: #4758AB;
+font-style: inherit;">+</span> </span>
+<span id="cb2-18">  </span>
+<span id="cb2-19">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb2-12">    <span class="at" style="color: #657422;
+<span id="cb2-20">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Goals For vs Goals Against: 2024 NHL Season"</span>,</span>
-<span id="cb2-13">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"A weak offense and a weaker defense allowed for the San Jose Sharks to be in the</span><span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"Exposing the defensive and offensive</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">worst position possible for the 2024 season."</span>,</span>
-<span id="cb2-14">    <span class="at" style="color: #657422;
+font-style: inherit;">breakdown of the Sharks"</span>,</span>
+<span id="cb2-21">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"The Sharks’ combination of low scoring and high goals allowed pushed them to the</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">bottom of the league, while other teams separated themselves through stronger two-way play."</span>,</span>
+<span id="cb2-22">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Goals Scored"</span>,</span>
-<span id="cb2-15">    <span class="at" style="color: #657422;
+<span id="cb2-23">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Goals Allowed"</span>,</span>
-<span id="cb2-16">    <span class="at" style="color: #657422;
+<span id="cb2-24">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">""</span></span>
-<span id="cb2-17">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb2-25">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb2-18">  <span class="fu" style="color: #4758AB;
+<span id="cb2-26">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_minimal</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb2-19">  <span class="fu" style="color: #4758AB;
+<span id="cb2-27">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(</span>
-<span id="cb2-20">    <span class="at" style="color: #657422;
+<span id="cb2-28">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -374,7 +392,7 @@ background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"bold"</span>),</span>
-<span id="cb2-21">    <span class="at" style="color: #657422;
+<span id="cb2-29">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">axis.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -383,7 +401,7 @@ background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">8</span>), </span>
-<span id="cb2-22">    <span class="at" style="color: #657422;
+<span id="cb2-30">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -392,22 +410,22 @@ background-color: null;
 font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>), </span>
-<span id="cb2-23">    <span class="at" style="color: #657422;
+<span id="cb2-31">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">panel.grid.minor =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">element_blank</span>(),</span>
-<span id="cb2-24">    <span class="at" style="color: #657422;
+<span id="cb2-32">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"plot"</span></span>
-<span id="cb2-25">    ) </span></code></pre></div></div>
+<span id="cb2-33">    ) </span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/volleyball-positions-underrated/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/are-the-2024-san-jose-sharks-really-that-bad/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -718,16 +736,34 @@ font-style: inherit;">NA</span>  </span>
 <span id="cb3-38">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb3-39">  </span>
-<span id="cb3-40">   <span class="fu" style="color: #4758AB;
+<span id="cb3-39"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_point</span>( <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> sharkslabel,</span>
+<span id="cb3-40">            <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Date, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> cumdiff), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#006D75"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-41"></span>
+<span id="cb3-42">   <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb3-41">    <span class="at" style="color: #657422;
+<span id="cb3-43">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"The Sharks sinking in the Pacific Division"</span>,</span>
-<span id="cb3-42">    <span class="at" style="color: #657422;
+font-style: inherit;">"The Sharks sink in the Pacific Division"</span>,</span>
+<span id="cb3-44">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -736,33 +772,33 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">sharply from the rest of the division as the season progresses."</span>,</span>
-<span id="cb3-43">    <span class="at" style="color: #657422;
+<span id="cb3-45">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Date"</span>,</span>
-<span id="cb3-44">    <span class="at" style="color: #657422;
+<span id="cb3-46">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Cumulative Difference in Score"</span>,</span>
-<span id="cb3-45">    <span class="at" style="color: #657422;
+font-style: inherit;">"Cumulative Difference of Goals"</span>,</span>
+<span id="cb3-47">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">""</span></span>
-<span id="cb3-46">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb3-48">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb3-47">  <span class="fu" style="color: #4758AB;
+<span id="cb3-49">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_minimal</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb3-48">  <span class="fu" style="color: #4758AB;
+<span id="cb3-50">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(</span>
-<span id="cb3-49">    <span class="at" style="color: #657422;
+<span id="cb3-51">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -775,7 +811,7 @@ background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"bold"</span>),</span>
-<span id="cb3-50">    <span class="at" style="color: #657422;
+<span id="cb3-52">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">axis.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -784,7 +820,7 @@ background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">8</span>), </span>
-<span id="cb3-51">    <span class="at" style="color: #657422;
+<span id="cb3-53">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -793,22 +829,22 @@ background-color: null;
 font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>), </span>
-<span id="cb3-52">    <span class="at" style="color: #657422;
+<span id="cb3-54">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">panel.grid.minor =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">element_blank</span>(),</span>
-<span id="cb3-53">    <span class="at" style="color: #657422;
+<span id="cb3-55">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"plot"</span></span>
-<span id="cb3-54">    ) </span></code></pre></div></div>
+<span id="cb3-56">    ) </span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="https://your-website-url.example.com/posts/volleyball-positions-underrated/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="https://your-website-url.example.com/posts/are-the-2024-san-jose-sharks-really-that-bad/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -825,9 +861,9 @@ font-style: inherit;">"plot"</span></span>
   <category>sanjose</category>
   <category>hockey</category>
   <category>sanjosesharks</category>
-  <guid>https://your-website-url.example.com/posts/volleyball-positions-underrated/</guid>
+  <guid>https://your-website-url.example.com/posts/are-the-2024-san-jose-sharks-really-that-bad/</guid>
   <pubDate>Tue, 09 Dec 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/volleyball-positions-underrated/image.png" medium="image" type="image/png"/>
+  <media:content url="https://your-website-url.example.com/posts/are-the-2024-san-jose-sharks-really-that-bad/image.png" medium="image" type="image/png" height="98" width="144"/>
 </item>
 <item>
   <title>Is Nebraska’s defense good enough to carry a struggling offense?</title>
